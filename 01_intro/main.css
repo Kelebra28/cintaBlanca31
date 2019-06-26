@@ -22,3 +22,15 @@ a{
 .estaEsOtraClase{
     width: 10px;
 }
+
+.uno{
+    color: red;
+}
+
+.dos{
+    color: green;
+}
+
+.tres{
+    color: yellow;
+}

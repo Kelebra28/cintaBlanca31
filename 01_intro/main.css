@@ -1,0 +1,24 @@
+/* modificar mis elementos por selector de etiqueta */
+h1{
+    font-size: 40px;
+    color: #7d1cb6;
+}
+
+img{
+    width: 50px;
+}
+
+/* quitar estilos por defecto a los links */
+a{
+    text-decoration: none; 
+    color: #000;
+}
+
+/* modificar mis elementos por selector de clase */
+.primerImagenJuanin{
+    width: 350px;
+}
+
+.estaEsOtraClase{
+    width: 10px;
+}

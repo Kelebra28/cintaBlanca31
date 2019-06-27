@@ -1,0 +1,52 @@
+/* probamos el css con el asterisco, selector que se aplica a toda la pagina */
+
+/* *{
+    background-color: red;
+} */
+
+/* las etiquetas de header poseen por defector un display llamado block */
+h1{
+    border: solid 1px green;
+    /* width: 50%; */
+    display: inline-block;
+    padding: 15px;
+    background: black;
+    color: #fff;
+    margin-right: 30px;
+}
+/* display inline-block combina ambas propiedades */
+
+h2{
+    border: solid 1px #f01b97;
+    height: 4em;
+    width: 200px;
+    display: inline-block;
+    background: orange;
+    margin: 30px 10px;
+}
+
+p{
+    border: solid 1px purple;
+    margin: 4px 76px 19px 0;
+}
+
+/* el display utilizado en la etiqueta a es llamado inline */
+a{
+    border: solid 1px brown;    
+}
+
+.seccion1{
+    border: solid 1px red;
+    width: 50%;
+    height: 300px;
+}
+
+.seccion2{
+    width: 50%;
+    height: 350px;
+    border: solid 1px blue;
+}
+
+.seccion3{
+    border: solid 1px orange;
+}

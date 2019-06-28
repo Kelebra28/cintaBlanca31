@@ -1,17 +1,26 @@
-body{
-    margin: 0;
-    padding: 0;
-}
-
-.navegacion{
-    border: solid 1px;
+header {
+    border: solid 1px red;
     width: 100%;
-    height: 50px;
-    padding-left: 830px;
+    height: 60px;
 }
 
-.links{
-    border: 1px solid orange;
-    width: 160px;
-    margin-top: 15px;
+nav {
+    border: solid 1px green;
+    width: 100%;
+    height: 100%;
+}
+
+.nav-container{
+     /* padding-left: 826px; */
+     margin-left: 826px;
+     border: solid 3px red;
+}
+
+.nav-container>a {
+    text-decoration: none;
+    color: #000;
+}
+
+main {
+    border: solid 1px purple;
 }

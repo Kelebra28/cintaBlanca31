@@ -1,0 +1,61 @@
+.contenedor{
+    border: 1px black solid;
+    width: 1200px;
+    height: 400px;
+    display: flex;
+/* Justify-content alinea a los elementos de una forma horizontal */
+    justify-content: center;
+    /* Align-items alinea a los elementos de una forma vertical  */
+    align-items:  center;
+    /* Flex-direction cambia la direccion de los elementos con sus ejes */
+    /* flex-direction: column; */
+    /* justify-content:space-around y space-between espacios entre elementos */
+    justify-content: space-around
+}
+
+.father{
+    width: 300px;
+    height: 300px;
+    border: 1px red solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.mother{
+    width: 300px;
+    height: 300px;
+    border: 1px blue solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+
+.hijo{
+    border: 1px violet solid;
+    width: 25%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hija{
+    border: 1px rgb(80, 80, 10) solid;
+    width: 25%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nieto{
+    border: 1px solid blueviolet;
+    width: 50%;
+    height: 50%;
+}

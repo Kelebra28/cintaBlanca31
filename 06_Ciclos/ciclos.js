@@ -56,9 +56,40 @@
 // }
 
 
-let array = [ "a","b", "c", "d","f","g","h","i","j"]
+// let array = [ "a","b", "c", "d","f","g","h","i","j"]
 
-//  console.log(array.length)
-for(let i = 0 ; i < array.length; i++){
-    console.log(array[i])
+// //  console.log(array.length)
+// for(let i = 0 ; i < array.length; i++){
+//     console.log(array[i])
+// }
+
+//Hacer las tablas de multiplicar de 1-10
+
+//Ejemplo 1x1=1
+// 1x2=2
+// 1x3=3
+// 5x5=25
+
+
+// 1x2=2
+// 1x3=3
+
+// for(let i = 1; i <=10; i++){
+//     for(let e = 1; e <=1; e++){
+//         console.log(i + " x "+ e + " = " + i*e)
+//     }
+// }
+
+// Factorial
+
+let num = 1
+
+
+let numero = prompt('Ingresa tu numero')
+
+
+for(let i = 1; i<=numero;i++){
+    console.log(num = num * i)
 }
+console.log(num)
+

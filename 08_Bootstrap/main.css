@@ -1,0 +1,33 @@
+body{
+    height: 10000px;
+}
+
+/* ---------inicia nav------- */
+
+.custom-link-color{
+    color: #fff !important;
+}
+
+/* ---------termina nav------- */
+/* -------inicia carousel------- */
+
+.custom-carousel{
+    /* border: solid 2px blue; */
+    height: 500px;
+}
+
+.custom-car-img{
+    height: 500px !important;
+}
+
+.card-container{
+    border: solid 2px orangered;
+    /* ----agregamos esto desde BS------ */
+    /* display: flex;
+    justify-content: space-around;
+    margin-top: 2em; */
+}
+
+.container{
+    border: solid 2px rgb(255, 0, 255);
+}

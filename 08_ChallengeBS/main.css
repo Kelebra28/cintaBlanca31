@@ -1,0 +1,53 @@
+/* --------estilos navbar-------- */
+.custom-link-nav-color{
+    color: #fff !important;
+}
+
+.logo-navbar{
+    width: 55px;
+}
+/* --------termina estilos navbar-------- */
+/* --------Carousel-------- */
+.img-custom-car{
+    width: 100%;
+    height: 100vh;
+}
+
+/* .custom-margin{
+    margin-top: 56.81px;
+} */
+
+/* .container{
+    width: 100% !important;
+    max-width: 100% !important;
+    border: solid 1px red;
+    margin: 0 !important;
+    padding: 0 !important;
+} */
+
+.custom-container{
+    /* border: solid 1px #0400ff; */
+    max-width: 100%;
+    background-color: #000;
+}
+
+.card-body{
+    border-top: solid 1px #fff;
+    background-color: #000;
+}
+
+.card-body > h5 {
+    color: #fff;
+}
+
+.card-body > a {
+    border-radius: 0;
+    background-color: #000;
+    border: solid 1px #fff;
+}
+
+.card-body > a:hover {
+    background-color: #fff !important;
+    color: #000 !important;
+    border: solid 1px #fff;
+}

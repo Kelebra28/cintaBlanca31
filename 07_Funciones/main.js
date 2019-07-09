@@ -44,3 +44,39 @@
 // for( let i = 1; i <= 100; i++){
 //     console.log(i)
 // }
+
+// let usuario = prompt("contraseña")
+// const password = "gatitos13"
+
+// const login = (a, b) => {
+//     if ( a === b) {
+//         console.log("Bienvenido")
+//     } else {
+//         console.log("Contraseña incorrecta")
+//     }
+// }
+// login(usuario, password)
+
+
+const login = () => {
+    let user = prompt("contraseña")
+    const password = "gatitos13"
+    if (user === password) {
+        console.log("Bienvenido")
+    } else {
+        console.log("Contraseña incorrecta")
+    }
+}
+
+login()
+
+
+
+
+
+
+
+
+
+
+

@@ -8,7 +8,7 @@ body{
     background-position: center center;
 }
 
-.input-container{
+.input-container{ 
     width: 50%;
     /* border: solid 1px red; */
     display: flex;

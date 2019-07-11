@@ -6,7 +6,7 @@ let inputPizza = document.getElementById('inputPizza')
 let mostrarNombre = document.getElementById('nombre')
 let mostrarTelefono = document.getElementById('telefono')
 let mostrarPizza = document.getElementById('pizza')
-//boton
+//boton 
 let boton = document.getElementById('boton')
 //card
 let card = document.getElementById('card')
